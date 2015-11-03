@@ -1,6 +1,6 @@
-var app = angular.module('jsrApp', []);
+var app = angular.module('i18nApp', []);
 
-app.controller('jsrController', function($scope, $http) {
+app.controller('i18nController', function($scope, $http) {
 
 	var lang = window.navigator.language;
 	$scope.getMessages = function() {
